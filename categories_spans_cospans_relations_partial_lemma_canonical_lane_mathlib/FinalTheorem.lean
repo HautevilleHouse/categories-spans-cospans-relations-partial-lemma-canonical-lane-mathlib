@@ -1,0 +1,9 @@
+import categories_spans_cospans_relations_partial_lemma_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace categories_spans_cospans_relations_partial_lemma_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end categories_spans_cospans_relations_partial_lemma_canonical_lane_mathlib
+end HautevilleHouse
